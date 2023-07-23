@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Courses</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Global styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Header styles */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #2e3550;
+      color: white;
+    }
+
+    .header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .social a {
+      margin-right: 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Sidebar styles */
+    .sidebar {
+      float: left;
+      width: 220px;
+      padding: 1em;
+      background-color: #f0f0f0;
+      color: #2e3550;
+    }
+
+    .sidebar img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      display: block;
+      padding: 8px 16px;
+      color: #2e3550;
+      text-decoration: none;
+    }
+
+    .sidebar a.active {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    .sidebar a:hover:not(.active) {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    .quote {
+      font-style: italic;
+    }
+
+    /* Main content styles */
+    .content {
+      margin-left: 240px;
+      padding: 1em;
+    }
+
+    .course-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #d4d4d4;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s;
+    }
+
+    .course-card:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .course-card img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    /* Footer styles */
+    .footer {
+      padding: 20px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+    }
+
+    .footer img {
+      width: 80px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>DevOps Courses</h1>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </header>
+    <div class="sidebar">
+      <img src="path_to_your_logo.png" alt="DevOps Logo">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <p class="quote">"Master the DevOps culture and tools to streamline software delivery."<br>- Mr. Arjun</p>
+    </div>
+    <main class="content">
+      <h2>Welcome to DevOps Courses</h2>
+      <p>Explore our comprehensive DevOps courses designed to help you succeed in today's fast-paced IT industry.</p>
+      <h2>Our Courses</h2>
+      <div class="course-card">
+        <img src="path_to_course_image1.jpg" alt="Course 1">
+        <h3>Introduction to DevOps</h3>
+        <p>Learn the fundamental principles of DevOps and its benefits. Ideal for beginners.</p>
+        <p>Duration: 4 weeks</p>
+      </div>
+      <div class="course-card">
+        <img src="path_to_course_image2.jpg" alt="Course 2">
+        <h3>Continuous Integration with Jenkins</h3>
+        <p>Master Jenkins for automated builds and continuous integration.</p>
+        <p>Duration: 6 weeks</p>
+      </div>
+      <div class="course-card">
+        <img src="path_to_course_image3.jpg" alt="Course 3">
+        <h3>Containerization with Docker</h3>
+        <p>Explore containerization with Docker for scalable and portable applications.</p>
+        <p>Duration: 5 weeks</p>
+      </div>
+      <!-- Add more course cards here as needed -->
+
+      <h2>Schedule</h2>
+      <p>Our courses are available throughout the year. Join anytime and start your DevOps journey!</p>
+      <table>
+        <tr>
+          <th>Course</th>
+          <th>Next Start Date</th>
+        </tr>
+        <tr>
+          <td>Introduction to DevOps</td>
+          <td>August 15, 20xx</td>
+        </tr>
+        <tr>
+          <td>Continuous Integration with Jenkins</td>
+          <td>September 5, 20xx</td>
+        </tr>
+        <tr>
+          <td>Containerization with Docker</td>
+          <td>September 25, 20xx</td>
+        </tr>
+        <tr>
+          <td>Infrastructure as Code with Terraform</td>
+          <td>October 10, 20xx</td>
+        </tr>
+        <tr>
+          <td>Continuous Deployment with Kubernetes</td>
+          <td>November 1, 20xx</td>
+        </tr>
+      </table>
+
+      <h2>Contact Us</h2>
+      <form>
+        <label
