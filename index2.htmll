@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Courses</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Your CSS styling here */
+    /* ... */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>DevOps Courses</h1>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </header>
+    <aside class="left">
+      <img src="./assets/devops-logo.png" width="160px" alt="DevOps Logo" />
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <br><br>
+      <p>"Master the DevOps culture and tools to streamline software delivery."<br>- Mr. Arjun</p>
+    </aside>
+    <main class="content">
+      <h2>Welcome to DevOps Courses</h2>
+      <p>Explore our comprehensive DevOps courses designed to help you succeed in today's fast-paced IT industry.</p>
+      <h2>Our Courses</h2>
+      <ul>
+        <li>
+          <h3>Introduction to DevOps</h3>
+          <p>Learn the fundamental principles of DevOps and its benefits. Ideal for beginners.</p>
+          <p>Duration: 4 weeks</p>
+        </li>
+        <li>
+          <h3>Continuous Integration with Jenkins</h3>
+          <p>Master Jenkins for automated builds and continuous integration.</p>
+          <p>Duration: 6 weeks</p>
+        </li>
+        <li>
+          <h3>Containerization with Docker</h3>
+          <p>Explore containerization with Docker for scalable and portable applications.</p>
+          <p>Duration: 5 weeks</p>
+        </li>
+        <li>
+          <h3>Infrastructure as Code (IaC) with Terraform</h3>
+          <p>Learn how to manage infrastructure using Terraform.</p>
+          <p>Duration: 6 weeks</p>
+        </li>
+        <li>
+          <h3>Continuous Deployment with Kubernetes</h3>
+          <p>Deploy and manage applications with Kubernetes.</p>
+          <p>Duration: 7 weeks</p>
+        </li>
+      </ul>
+      <h2>Schedule</h2>
+      <p>Our courses are available throughout the year. Join anytime and start your DevOps journey!</p>
+      <table>
+        <tr>
+          <th>Course</th>
+          <th>Next Start Date</th>
+        </tr>
+        <tr>
+          <td>Introduction to DevOps</td>
+          <td>August 15, 20xx</td>
+        </tr>
+        <tr>
+          <td>Continuous Integration with Jenkins</td>
+          <td>September 5, 20xx</td>
+        </tr>
+        <tr>
+          <td>Containerization with Docker</td>
+          <td>September 25, 20xx</td>
+        </tr>
+        <tr>
+          <td>Infrastructure as Code with Terraform</td>
+          <td>October 10, 20xx</td>
+        </tr>
+        <tr>
+          <td>Continuous Deployment with Kubernetes</td>
+          <td>November 1, 20xx</td>
+        </tr>
+      </table>
+      <h2>Contact Us</h2>
+      <form>
+        <label>Name: <input type="text" name="name"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Phone: <input type="tel" name="phone"></label><br>
+        <label>Message:</label><br>
+        <textarea name="message" rows="4"></textarea><br>
+        <input type="submit" value="Send Message" /><br>
+      </form>
+    </main>
+    <footer class="footer">
+      <!-- Add more graphical elements and information about the institute -->
+      <div style="background-color: #2e3550; padding: 20px; text-align: center; color: white;">
+        <h3>DevOps Academy</h3>
+        <p>Address: 1234 Main Street, City, Country</p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Email: info@devopsacademy.com</p>
+        <p>&copy; DevOps Academy. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
